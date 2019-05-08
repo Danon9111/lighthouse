@@ -13,7 +13,7 @@ const perfConfig = {
       'first-contentful-paint',
       'first-meaningful-paint',
       'interactive',
-      'speedindex',
+      'matrics/speedindex',
     ],
   },
 };
