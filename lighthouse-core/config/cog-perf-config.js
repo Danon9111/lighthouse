@@ -9,6 +9,7 @@
 const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
+    throttling: ['none'],
     onlyAudits: [
       'first-contentful-paint',
       'first-meaningful-paint',
