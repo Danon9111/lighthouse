@@ -6,7 +6,7 @@
 'use strict';
 
 /** @type {LH.Config.Json} */
-const perfConfig = {
+const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
     onlyAudits: [
@@ -18,4 +18,4 @@ const perfConfig = {
   },
 };
 
-module.exports = perfConfig;
+module.exports = cogPerfConfig;
