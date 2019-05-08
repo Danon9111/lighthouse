@@ -16,6 +16,7 @@ const cogPerfConfig = {
       'interactive',
       'speed-index',
     ],
+    throttlingMethod: ['provided'],
   },
 };
 
