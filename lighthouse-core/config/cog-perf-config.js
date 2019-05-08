@@ -12,8 +12,8 @@ const perfConfig = {
     onlyAudits: [
       'first-contentful-paint',
       'first-meaningful-paint',
-      'metrics/interactive',
-      'consistently-interactive',
+      'interactive',
+      'speedindex',
     ],
   },
 };
