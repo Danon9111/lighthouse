@@ -9,7 +9,7 @@
 const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
-    disableDeviceEmulation: true,
+    emulatedFormFactor: ['none'],
     onlyAudits: [
       'first-contentful-paint',
       'first-meaningful-paint',
