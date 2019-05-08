@@ -10,7 +10,7 @@ const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
     emulatedFormFactor: ['none'],
-    throttlingMethod: ['provided'],
+    throttlingMethod: 'provided',
     onlyAudits: [
       'first-contentful-paint',
       'first-meaningful-paint',
