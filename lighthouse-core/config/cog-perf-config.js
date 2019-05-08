@@ -10,13 +10,13 @@ const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
     emulatedFormFactor: ['none'],
+    throttlingMethod: ['provided'],
     onlyAudits: [
       'first-contentful-paint',
       'first-meaningful-paint',
       'interactive',
       'speed-index',
     ],
-    throttlingMethod: ['provided'],
   },
 };
 
