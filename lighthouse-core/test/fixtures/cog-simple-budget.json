@@ -17,8 +17,8 @@
                 "resourceType": "third-party",
                 "budget": 200
             }
-        ]
-        /*"timings": [
+        ],
+        "timings": [
             {
                 "metric": "interactive",
                 "budget": 5000,
@@ -28,6 +28,6 @@
                 "metric": "first-meaningful-paint",
                 "budget": 2000
             }
-        ]*/
+        ]
     }
 ]
