@@ -9,7 +9,7 @@
 const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
-    budgetPath: ['budget.js'],
+    budgetPath: ['test/fixtures/simple-budget.json'],
     /** Available flags and their values are present in externs.d.ts */
     emulatedFormFactor: 'none',
     onlyAudits: [
