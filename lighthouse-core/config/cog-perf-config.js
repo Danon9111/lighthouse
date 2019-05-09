@@ -9,6 +9,8 @@
 const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
+    budgetPath: 'budget.js',
+    /** Available flags and their values are present in externs.d.ts */
     emulatedFormFactor: 'none',
     onlyAudits: [
       'first-contentful-paint',
