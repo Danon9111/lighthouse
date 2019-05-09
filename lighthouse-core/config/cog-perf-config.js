@@ -20,7 +20,7 @@ const cogPerfConfig = {
       'speed-index',
     ],
     throttlingMethod: 'provided',
-    outputPath: './reports/*',
+    output: '.json',
   },
 };
 
