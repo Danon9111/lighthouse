@@ -9,7 +9,6 @@
 const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
-    budgetPath: '../test/fixtures/cog-simple-budget.json',
     /** Available flags and their values are present in externs.d.ts */
     emulatedFormFactor: 'none',
     onlyAudits: [
@@ -20,6 +19,7 @@ const cogPerfConfig = {
       'speed-index',
     ],
     throttlingMethod: 'provided',
+    budgetPath: '../test/fixtures/cog-simple-budget.json',
   },
 };
 
