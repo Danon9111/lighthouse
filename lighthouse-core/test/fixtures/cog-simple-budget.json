@@ -22,11 +22,11 @@
             },
             {
                 "metric": "first-meaningful-paint",
-                "budget": 2000
+                "budget": 200
             },
             {
                 "metric": "first-contentful-paint",
-                "budget": 1000
+                "budget": 100
             }
         ]
     }
