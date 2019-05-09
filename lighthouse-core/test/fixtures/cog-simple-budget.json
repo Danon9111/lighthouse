@@ -12,10 +12,6 @@
             {
                 "resourceType": "total",
                 "budget": 500
-            },
-            {
-                "resourceType": "third-party",
-                "budget": 200
             }
         ],
         "timings": [
@@ -27,6 +23,14 @@
             {
                 "metric": "first-meaningful-paint",
                 "budget": 2000
+            },
+            {
+                "metric": "speed-index",
+                "budget": 1000
+            },
+            {
+                "metric": "first-contentful-paint",
+                "budget": 1000
             }
         ]
     }
