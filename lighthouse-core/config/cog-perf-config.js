@@ -53,7 +53,7 @@ const cogPerfConfig = {
         }
       ] */
     }],
-    outputPath: '/report/',
+    outputPath: '../report/*.html',
   },
 };
 
