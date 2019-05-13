@@ -9,7 +9,6 @@
 const cogPerfConfig = {
   extends: 'lighthouse:default',
   settings: {
-    /** budgetPath: '../test/fixtures/cog-simple-budget.json', */
     /** Available flags and their values are present in externs.d.ts */
     emulatedFormFactor: 'none',
     onlyAudits: [
@@ -20,6 +19,7 @@ const cogPerfConfig = {
       'speed-index',
     ],
     throttlingMethod: 'provided',
+    /** Description of budgets can be found ..\types\budget.d.ts */
     budgets: [{
       "resourceSizes": [
         {
@@ -32,9 +32,27 @@ const cogPerfConfig = {
         },
         {
           "resourceType": "total",
-          "budget": 500
+          "budget": 3000
         }
-      ]}]
+      ],
+      /** This metrics are ignored currently in HTML report
+      https://github.com/GoogleChrome/lighthouse/issues/8917#issuecomment-491326444
+      "timings": [
+        {
+          "metric": "interactive",
+          "budget": 500,
+          "tolerance": 100
+        },
+        {
+          "metric": "first-meaningful-paint",
+          "budget": 200
+        },
+        {
+          "metric": "first-contentful-paint",
+          "budget": 100
+        }
+      ] */
+    }]
   },
 };
 
