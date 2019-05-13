@@ -20,7 +20,7 @@ const cogPerfConfig = {
       'speed-index',
     ],
     throttlingMethod: 'provided',
-    budget: {
+    budget: [{
       "resourceSizes": [
         {
           "resourceType": "script",
@@ -34,7 +34,7 @@ const cogPerfConfig = {
           "resourceType": "total",
           "budget": 500
         }
-      ],
+      ]}]
   },
 };
 
