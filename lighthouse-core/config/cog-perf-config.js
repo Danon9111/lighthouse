@@ -52,7 +52,8 @@ const cogPerfConfig = {
           "budget": 100
         }
       ] */
-    }]
+    }],
+    outputPath: '/report/',
   },
 };
 
